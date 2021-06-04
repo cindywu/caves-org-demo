@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  max-width: 800px;
+  color: #BDB8B1;
+  padding-top: 3em;
+ }
+
+ .container h1 {
+   font-family: 'Copperplate';
+   font-size: 4em;
+   line-height: .8em;
+   padding: 0;
+   margin: 0;
+   margin-top: 1em;
+ }
+
+ .container p {
+   font-family: 'Sora', sans-serif;
+   font-weight: 100;
+   font-size: .8em;
+ }
+
+ .one {
+   padding-top: 3em;
+   width: 40%;
+ }
+
+ .two {
+   width: 60%;
+   padding: 2em;
+ }
+
+ .button {
+   border-radius: none;
+   background-color: #924444;
+   color: white;
+   padding: 1em 2em;
+   border: none;
+   font-family: 'Sora', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: .6em;
+   letter-spacing: .16em;
+   margin-top: 2em;
+ }

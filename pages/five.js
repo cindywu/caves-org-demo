@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from '../components/Header'
-import Hero from '../components/Hero'
+import HeaderDark from '../components/HeaderDark'
+import HeroDark from '../components/HeroDark'
 import TopRed from '../components/TopRed'
 
 export default function Home() {
@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
       <TopRed />
       <main>
-        <Header/>
-        <Hero/>
+        <HeaderDark/>
+        <HeroDark/>
       </main>
 
       <style jsx>{`
@@ -27,7 +27,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background-color: #F8F7E8;
+          background-color: #181A1B;
         }
 
         main {

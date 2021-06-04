@@ -27,6 +27,9 @@ export default function Home() {
         <Link href="/four">
           Beige with red topbar
         </Link>
+        <Link href="/five">
+          Dark with red topbar
+        </Link>
       </main>
 
       <style jsx>{`
