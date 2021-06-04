@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
-import Top from '../components/Top'
+import TopRed from '../components/TopRed'
 
 export default function Home() {
   return (
@@ -14,19 +13,10 @@ export default function Home() {
           @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;700&display=swap');
         </style>
       </Head>
+      <TopRed />
       <main>
-        <Link href="/one">
-          Beige with blue topbar
-        </Link>
-        <Link href="/two">
-          White with blue topbar
-        </Link>
-        <Link href="/three">
-          White with red topbar
-        </Link>
-        <Link href="/four">
-          Beige with red topbar
-        </Link>
+        <Header/>
+        <Hero/>
       </main>
 
       <style jsx>{`
@@ -37,7 +27,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-
+          background-color: #F8F7E8;
         }
 
         main {
