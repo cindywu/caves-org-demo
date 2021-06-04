@@ -1,0 +1,38 @@
+.container {
+  background-color: #F8F7E8;
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  padding-right: 2em;
+  padding-left: 1em;
+}
+
+.item {
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .7em;
+  letter-spacing: .16em;
+  font-family: 'Sora', sans-serif;
+}
+
+.item a {
+  color: #434343;
+  text-decoration: none;
+}
+
+.donate {
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .7em;
+  letter-spacing: .16em;
+  font-family: 'Sora', sans-serif;;
+}
+
+.donate a {
+  color: #924444;
+  text-decoration: none;
+}
