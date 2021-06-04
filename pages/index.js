@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import Top from '../components/Top'
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
           @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;700&display=swap');
         </style>
       </Head>
-
+      <Top />
       <main>
+
         <Header/>
         <Hero/>
       </main>
@@ -30,7 +32,7 @@ export default function Home() {
         }
 
         main {
-          padding: 5rem 0;
+          padding: 1rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
