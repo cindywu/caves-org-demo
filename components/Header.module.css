@@ -9,6 +9,7 @@
 }
 
 .item {
+  margin-top: 1em;
   padding: 1em;
   font-weight: bold;
   text-transform: uppercase;
@@ -23,6 +24,7 @@
 }
 
 .donate {
+  margin-top: 1em;
   padding: 1em;
   font-weight: bold;
   text-transform: uppercase;
